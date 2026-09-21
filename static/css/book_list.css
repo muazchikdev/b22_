@@ -1,0 +1,54 @@
+* {
+    text-decoration: none;
+
+}
+.container {
+    width: 90%;
+    margin: 0 auto 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+    
+}
+
+h2 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.book_cards {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .1);
+    text-align: center;        
+    transition: .3s;
+
+    
+    
+    a {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 18px;
+        background: #7f835b;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: .3s;
+        
+    }
+    
+    a:hover {
+        background: #8e945c;
+    }
+}
+
+
+/* .btn.update {
+    background: #2196F3;
+}
+
+.btn.update:hover {
+    background: #1976D2;
+} */
+

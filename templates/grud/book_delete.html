@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+    {% block content %}
+
+    <h2>Удаление книги</h2>
+
+    <p>Удалить книгу "{{ book.title }}"?</p>
+
+    <form method="post">
+        {% csrf_token %}
+    
+        <button type="submit"> Удалить</button>
+
+        <a href="{% url 'book_detail' book.pk %}" class="btn">Отмена</a>
+    </form>
+
+{% endblock %}
+
+

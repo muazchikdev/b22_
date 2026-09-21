@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#F8F3ED;
+    color:#2D2D2D;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.header{
+    padding:20px 80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
