@@ -75,6 +75,10 @@ from .models import Book, Genre,Author
 
 
 
+
+
+
+
 class BookViewSet(viewsets.ModelViewSet):
     queryset = Book.objects.all()
     serializer_class = BookSerializer
